@@ -65,7 +65,7 @@ python3 population_predictor.py
 
 Run tests (optional):
 
-python3 test_model.py
+pytest test_model.py
 
 📈 Visualizations
 Actual vs. Predicted Population: Visual comparison of real versus predicted values to assess model accuracy.
