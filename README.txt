@@ -74,7 +74,7 @@ Feature Importance: SHAP-based visualizations that highlight the most influentia
 
 Contributors
 Scrum Master & Head Developer: Darsh Garg
-LLed the project using Agile methodologies. Developed, refined, and tested the final product, including Random Forest Regressor, LSTM, and XGBoost-based models. Implemented key improvements to the pipeline and coordinated the team's efforts.
+Led the project using Agile methodologies. Developed, refined, and tested the final product, including Random Forest Regressor, LSTM, and XGBoost-based models. Implemented key improvements to the pipeline and coordinated the team's efforts.
 
 Developer: Rohan Dham
 Developed code to visualize and analyze model results, contributing to the Random Forest Regressor's initial skeleton.
@@ -108,4 +108,3 @@ Rohan Dham: rohand400@gmail.com & dham0014@umn.edu
 Chinmay Goyal: goyal127@umn.edu
 
 Keshav Gautam: gautakes000@gmail.com
- *) *)
