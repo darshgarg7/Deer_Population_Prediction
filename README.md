@@ -1,4 +1,4 @@
-<!-- Deer Population Prediction Project
+Deer Population Prediction Project
 This project provides a robust pipeline for predicting deer population trends using machine learning. By leveraging historical environmental and population data, it implements advanced feature engineering, hyperparameter optimization, and model evaluation techniques. The project aims to deliver accurate, interpretable predictions that can inform wildlife management strategies.
 
 🚀 Key Features
@@ -108,4 +108,3 @@ Rohan Dham: rohand400@gmail.com & dham0014@umn.edu
 Chinmay Goyal: goyal127@umn.edu
 
 Keshav Gautam: gautakes000@gmail.com
--->
