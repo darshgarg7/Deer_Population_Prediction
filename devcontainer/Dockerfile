@@ -20,8 +20,6 @@ COPY --from=build /usr/local/lib/python3.8/site-packages /usr/local/lib/python3.
 # Copy the rest of the application
 COPY . .
 
-EXPOSE 5000
-
 CMD ["bash"]
 
 
