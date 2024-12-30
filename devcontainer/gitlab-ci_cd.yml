@@ -1,0 +1,51 @@
+stages:
+  - install
+  - test
+  - build
+  - deploy
+
+cache:
+  paths:
+    - .pip_cache/
+
+install:
+  stage: install
+  image: python:3.8-slim
+  script:
+    - python -m venv venv
+    - source venv/bin/activate
+    - pip install --upgrade pip
+    - pip install -r requirements.txt
+  artifacts:
+    paths:
+      - venv/
+  tags:
+    - docker
+
+test:
+  stage: test
+  image: python:3.8-slim
+  script:
+    - source venv/bin/activate
+    - pytest test_model
+  tags:
+    - docker
+
+build:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:19.03.12
+  script:
+    - docker build -t Deer_Population_Prediction .
+  only:
+    - main
+
+deploy:
+  stage: deploy
+  image: python:3.8-slim
+  script:
+    - echo "Deploying the application..."
+    - docker run -d -p 5000:5000 Deer_Population_Prediction
+  only:
+    - main
