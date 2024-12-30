@@ -8,7 +8,6 @@ COPY requirements.txt ./
 # Install dependencies in a single layer for efficiency
 RUN pip install --no-cache-dir -r requirements.txt
 
-
 # Final Image
 FROM python:3.8-slim
 
@@ -21,7 +20,6 @@ COPY --from=build /usr/local/lib/python3.8/site-packages /usr/local/lib/python3.
 COPY . .
 
 CMD ["bash"]
-
 
 # docker build -t Deer_Population_Prediction
 # docker run -it Deer_Population_Prediction
