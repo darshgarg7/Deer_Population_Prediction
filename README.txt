@@ -79,9 +79,6 @@ Led the project using Agile methodologies. Developed, refined, and tested the fi
 Developer: Rohan Dham
 Developed code to visualize and analyze model results, contributing to the Random Forest Regressor's initial skeleton.
 
-Developer: Alex Taylor
-Assisted with the initial development of the Random Forrest Regressor. 
-
 Data Developer: Chinmay Goyal
 Managed data retrieval, cleaning, and preprocessing to ensure high-quality input for the model.
 
