@@ -73,17 +73,17 @@ Actual vs. Predicted Population: Visual comparison of real versus predicted valu
 Feature Importance: SHAP-based visualizations that highlight the most influential features in the model's decision-making process.
 
 Contributors
-Scrum Master & Head Developer: Darsh Garg
-Led the project using Agile methodologies. Developed, refined, and tested the final product, including Random Forest Regressor, LSTM, and XGBoost-based models. Implemented key improvements to the pipeline and coordinated the team's efforts.
-
-Developer: Rohan Dham
-Developed code to visualize and analyze model results, contributing to the Random Forest Regressor's initial skeleton.
-
-Data Developer: Chinmay Goyal
-Managed data retrieval, cleaning, and preprocessing to ensure high-quality input for the model.
-
-Quality Assurance: Keshav Goyal
-Assisted with quality assurance testing, validating predictions and data integrity.
+Darsh Garg - Scrum Master & Technical Lead
+Fostered an environment of continuous collaboration through daily stand-ups and sprint retrospectives. Iteratively refined the machine learning pipeline through feedback loops, leading the evolution from Random Forest to LSTM and XGBoost implementations. Facilitated knowledge sharing sessions and pair programming to strengthen team capabilities.
+Core Development
+Rohan Dham - Analytics & Visualization Engineer
+Worked closely with the technical lead to develop interactive visualizations that enhanced model interpretability. Collaborated on the Random Forest foundation through paired programming sessions, enabling rapid prototyping and validation of approaches. Regularly shared insights with the team to drive data-driven decisions.
+Data Engineering
+Chinmay Goyal - Data Pipeline Specialist
+Established robust data pipelines while maintaining continuous communication with modeling teams to understand evolving data needs. Implemented automated quality checks and participated in daily scrums to ensure data readiness aligned with sprint goals. Regularly collaborated with QA to validate data integrity.
+Quality & Testing
+Keshav Goyal - Quality Assurance Engineer
+Partnered closely with all team members to implement comprehensive testing strategies throughout the development lifecycle. Provided rapid feedback on model performance and data quality, enabling quick iterations and improvements. Maintained testing documentation and facilitated testing-focused knowledge sharing sessions.
 
 📊 Dataset Overview
 The dataset contains historical data on deer populations, harvests, and environmental factors like temperature, precipitation, and snow depth. The table below outlines the key variables:
